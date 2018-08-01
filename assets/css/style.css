@@ -552,12 +552,12 @@ div h6 {
         
         margin-top:2vh;
         width:30vw;
-        height:2vh;
+        height:3vh;
         margin-right:1vw;
     }
 
     div h6 {
-        margin-top:5vw;
+        margin-top:6vw;
         margin-right: 1vw;
         color:white;
         font-size:12px; 
@@ -566,7 +566,7 @@ div h6 {
     .changeNow {
         margin-top:4.5vw;
         margin-right:2vw;
-        height:22px;
+        height:30px;
         background: #234;
         color: #ebebeb;
         border: none;
@@ -594,7 +594,7 @@ div h6 {
    
 
     #buttons {
-        margin-top:20vh;
+        margin-top:30vh;
         display:inline-grid;
         grid-template-columns: 1fr;
         grid-gap: 6vw;
