@@ -1,0 +1,613 @@
+body {
+    background: url(../images/colorful_wall.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+}
+
+#navBar {
+    display:flex;
+    background: slategrey;
+    height:80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; 
+    animation: colorChange2 infinite 3s;
+    -webkit-animation: colorchange2 infinite ease-in-out 4s;
+}
+
+@keyframes colorchange2
+    {
+      0%   {background: rgb(51, 60, 70);}
+      25%  {background: rgb(69, 79, 99);}
+      50%  {background: #57a8b6;}
+      75%  {background: #004a7c}
+      100% {background: #5a357a;}
+    } 
+
+div h1 {
+    margin-left:3.5vw;
+    margin-right:3.5vw;
+
+    width:10vw;
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+
+#favorites {
+    margin-left:20vw;
+    color:yellow;
+    border:none;
+    background: transparent;
+    
+    
+}
+
+form {
+    display:flex;
+   
+    margin-top:17px;
+    margin-right:5vw;
+}  
+
+div h6 {
+    display: inline;
+    margin-right: 1vw;
+    color:white;
+    font-size:17px;;
+    font-family: 'Righteous', cursive;
+}
+
+.whatDoYouGot {
+    margin-top:1vh;
+    width:30vw;
+    height:25px;
+    margin-right:1vw;
+    margin-left:1vw;
+}
+
+.changeNow {
+    
+    background: slategray;
+    color: #ebebeb;
+    border: none;
+    border-radius:15%;
+    height:40px;
+    font-family: 'Righteous', cursive;
+}
+
+.changeNow:hover {
+    background: green;
+}
+
+#goingBack {
+    clear:both;
+    border-radius:25px;
+    width:10vw;
+    height:5vh;
+    position:absolute;
+    left:82vw;
+    top:10px;
+    opacity: 0.7;
+    background: #777;
+    animation: colorChange infinite 3s;
+    -webkit-animation: colorchange infinite ease-in-out 4s;
+    border: none;
+}
+
+@keyframes colorchange
+    {
+      0%   {background: rgb(51, 60, 70);}
+      25%  {background: #757B87;}
+      50%  {background: #00c0e4;}
+      75%  {background: #0174c0}
+      100% {background: #342343;}
+    } 
+
+
+.images {
+    width:25vw;
+    margin: 2vw;
+    }
+.starGif {
+    background:transparent;
+    color:white;
+    border:none;
+    margin-top:-10vh;
+    
+}
+
+.starGif:hover {
+    color:yellow;
+}
+
+#navFoot {
+    background: #234;
+    opacity:0.5;
+    height:4vh;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    z-index: -1; 
+}
+
+.btn {
+    color:#234;
+}
+
+#buttons {
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12vh auto 0vh;  
+    grid-gap: 0vw 12vw; 
+    background: rgba(0, 0, 0, 0.5);
+    overflow:auto;
+}
+
+#wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#animate0 {
+    margin: 2vw;
+    margin-right:4vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size:1.45vw;
+    /* background: url(../images/AH_Real_Monsters.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity:1;
+    animation: rubberBand 2s; 
+}
+
+#animate0:hover {
+    animation: bounce 1s infinite;  
+}
+
+#animateImage0 {
+    width:25vw;
+}
+
+#animate1 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size:1.45vw;
+    /* background: url(../images/Tales_from_the_Crypt.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+    animation: rubberBand 4s; 
+}
+
+#animate1:hover {
+    animation-play-state: running;
+    animation: bounce 1.5s infinite;  
+}
+
+#animateImage1 {
+    width:25vw;
+    animation: jello 1s; 
+}
+
+#animate2 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/The_Comeback.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 3.5s; 
+}
+
+#animate2:hover {
+    animation-play-state: running;
+    animation: swing 1s infinite; 
+}
+
+#animateImage2 {
+    width:25vw;
+    animation: tada 1s; 
+}
+
+#animateImage2:hover {
+    animation: jello 1s infinite; 
+}
+
+#animate3 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Seinfeld.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 4.2s; 
+}
+
+#animate3:hover {
+    animation-play-state: running;
+    animation: flash 1s infinite; 
+}
+
+#animateImage3 {
+    width:25vw;
+    animation: zoomInDown 1s; 
+}
+
+#animate4 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Married_with_Children.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 2.8s; 
+}
+
+#animate4:hover {
+    animation-play-state: running;
+    animation: shake 1s infinite; 
+}
+
+#animateImage4 {
+    width:25vw;
+    animation: lightSpeedIn 1s; 
+}
+
+#animate5 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Daria.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 7s; 
+}
+
+#animate5:hover {
+    animation-play-state: running;
+    animation: jello 1s infinite; 
+}
+
+#animateImage5 {
+    width:25vw;
+}
+
+#animate6 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/South_Park.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 5.5s; 
+}
+
+#animate6:hover {
+    animation-play-state: running;
+    animation: flip 2s infinite; 
+}
+
+#animateImage6 {
+    width:25vw;
+}
+
+#animate7 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/American_Dad.png); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 3.8s; 
+}
+
+#animate7:hover {
+    animation-play-state: running;
+    animation: hinge 3s infinite; 
+}
+
+#animateImage7 {
+    width:25vw;
+}
+
+#animate8 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Family_Guy.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 3.3s; 
+}
+
+#animate8:hover {
+    animation-play-state: running;
+    animation: rollIn reverse 2s infinite; 
+}
+
+#animateImage8 {
+    width:25vw;
+}
+
+#animate9 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Kenan_&_Kel.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 6.2s; 
+}
+
+#animate9:hover {
+    animation-play-state: running;
+    animation: wobble reverse 1s infinite; 
+}
+
+#animateImage9 {
+    width:25vw;
+}
+
+#animate10 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+    /* background: url(../images/Strangers_with_candy.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    animation: rubberBand 2.4s; 
+
+}
+
+#animate10:hover {
+    animation-play-state: running;
+    animation: tada reverse 1.5s infinite; 
+}
+
+#animateImage10 {
+    width:25vw;
+}
+
+#animate11 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.28vw;
+}
+
+#animate11:hover {
+    animation-play-state: running;
+    animation: tada 1s infinite; 
+}
+
+#animateImage11 {
+    width:25vw;
+}
+
+#animate12 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+
+#animateImage12 {
+    width:25vw;
+}
+
+#animate13 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage13 {
+    width:25vw;
+}
+#animate14 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage14 {
+    width:25vw;
+}
+#animate15 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage15 {
+    width:25vw;
+}
+#animate16 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage16 {
+    width:25vw;
+}
+#animate17 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage17 {
+    width:25vw;
+}
+#animate18 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage18 {
+    width:25vw;
+}
+#animate19 {
+    margin: 2vw;
+    border-radius:20px;
+    width:17vw;
+    height:13vw;
+    font-size: 1.5vw;
+}
+#animateImage19 {
+    width:25vw;
+}
+
+.info {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:2vw;
+    margin-top:10vh;
+    color:#ebebeb;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5vh;
+    text-align:center;
+    font-size:1vw;
+}
+
+.words {
+    display:grid;
+    margin-left:3vw;
+    width:25vw;
+    text-align:center;
+}
+
+@media screen and (max-width: 375px) {
+
+    div h1 {
+        margin-top:3vh;
+        margin-left:3.5vw;
+        width:10vw;
+        font-size:22px;
+        font-weight:bold;
+    }
+
+    form {
+        display:flex;
+        /* float:right; */
+        /* margin-top:-30px; */
+    }  
+
+    .whatDoYouGot {
+        margin-top:.5vh;
+        width:30vw;
+        height:4vh;
+        margin-right:1vw;
+    }
+
+    div h6 {
+        
+        margin-right: 1vw;
+        color:white;
+        font-size:12px; 
+    }
+
+    .changeNow {
+        margin-right:2vw;
+        background: #234;
+        color: #ebebeb;
+        border: none;
+        font-size:3vw;
+        border-radius:15%;
+    }
+
+    .changeNow:hover {
+        background: green;
+    }
+
+    #goingBack {
+        clear:both;
+        width:20vw;
+        height:7vh;
+        /* margin-top:-40px; */
+        float:right;
+        margin-right:2.5vw;
+        opacity: 0.7;
+        background: #777;
+        animation: colorChange infinite 3s;
+        -webkit-animation: colorchange infinite ease-in-out 4s;
+        border: none;
+    } 
+
+    #favorites {
+        margin-left:10vw;
+        transform:scale(0.5)
+    }
+
+    #buttons {
+        margin-top:13vh;
+        display:inline-grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6vw;
+        
+    }
+
+    #animate0, #animate1, #animate2, #animate3, #animate4, #animate5, #animate6, #animate7, #animate8, #animate9, #animate10, #animate11, #animate12 {
+        width:60vw;
+        height:50vw;
+        margin-left:3.5vw;
+    }
+
+    .info {
+        margin-top:20vh;
+    }
+}
+
+
+
+  
