@@ -1,3 +1,4 @@
+@media screen and (max-width: 2500px) {
 body {
     background: url(../images/colorful_wall.jpg);
     background-repeat: no-repeat;
@@ -40,7 +41,7 @@ div h1 {
 
 #favorites {
     margin-left:20vw;
-    color:yellow;
+    color:orange;
     border:none;
     background: transparent;
     
@@ -526,39 +527,46 @@ div h6 {
     width:25vw;
     text-align:center;
 }
-
+}
 @media screen and (max-width: 375px) {
 
     div h1 {
-        margin-top:3vh;
+        margin-top:2vh;
         margin-left:3.5vw;
         width:10vw;
-        font-size:22px;
+        font-size:40px;
         font-weight:bold;
     }
 
-    form {
+    #hideMe {
+        
+        
         display:flex;
-        /* float:right; */
+        margin-top:23vw;
+        float:left;
+        
         /* margin-top:-30px; */
     }  
 
     .whatDoYouGot {
-        margin-top:.5vh;
+        
+        margin-top:2vh;
         width:30vw;
-        height:4vh;
+        height:2vh;
         margin-right:1vw;
     }
 
     div h6 {
-        
+        margin-top:5vw;
         margin-right: 1vw;
         color:white;
         font-size:12px; 
     }
 
     .changeNow {
+        margin-top:4.5vw;
         margin-right:2vw;
+        height:22px;
         background: #234;
         color: #ebebeb;
         border: none;
@@ -574,7 +582,6 @@ div h6 {
         clear:both;
         width:20vw;
         height:7vh;
-        /* margin-top:-40px; */
         float:right;
         margin-right:2.5vw;
         opacity: 0.7;
@@ -584,13 +591,10 @@ div h6 {
         border: none;
     } 
 
-    #favorites {
-        margin-left:10vw;
-        transform:scale(0.5)
-    }
+   
 
     #buttons {
-        margin-top:13vh;
+        margin-top:20vh;
         display:inline-grid;
         grid-template-columns: 1fr;
         grid-gap: 6vw;
@@ -601,11 +605,23 @@ div h6 {
         width:60vw;
         height:50vw;
         margin-left:3.5vw;
+        margin-top:10vw;
     }
 
     .info {
         margin-top:20vh;
     }
+
+    #favorites {
+        margin-top:5vw;
+        margin-left:70vw;
+        transform:scale(.8);
+        color:yellow;
+        position:absolute;
+
+    }
+
+    
 }
 
 
