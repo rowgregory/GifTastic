@@ -152,6 +152,7 @@ div h6 {
 }
 
 #wrapper {
+    
     display:flex;
     justify-content: center;
     align-items: center;
@@ -539,7 +540,10 @@ div h6 {
     }
 }
 @media screen and (max-width: 375px) {
-
+body{
+    margin:0;
+    width:100%;
+}
     #navBar {
         height:120vw;
         background:rgba(0, 0, 0, 0.5);
@@ -573,7 +577,7 @@ div h6 {
         margin-top:3vh;
         margin-left:5vw;
         width:10vw;
-        font-size:80px;
+        font-size:75px;
         font-weight:bold;
     }
 
@@ -634,6 +638,7 @@ div h6 {
    
 
     #buttons {
+        width:100%;
         margin-top:30vh;
         display:inline-grid;
         grid-template-columns: 1fr;
@@ -644,8 +649,9 @@ div h6 {
     #animate0, #animate1, #animate2, #animate3, #animate4, #animate5, #animate6, #animate7, #animate8, #animate9, #animate10, #animate11, #animate12 {
         width:60vw;
         height:50vw;
-        margin-left:3.5vw;
+        
         margin-top:10vw;
+        margin:5vw auto;
     }
 
     .info {
@@ -653,6 +659,7 @@ div h6 {
     }
 
     #favorites {
+        margin:0 auto;
         margin-top:70vw;
         margin-left:39vw;
         transform:scale(.8);
