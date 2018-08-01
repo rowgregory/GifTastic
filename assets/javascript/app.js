@@ -43,6 +43,29 @@
                 $("#buttons").append(_buttons);
         }   
     }
+    $("#whatToDo").hide(); 
+    var switchOp = 0;
+
+    $("#directions").on('click', function() {
+        if(switchOp === 0) {
+            
+            
+            switchOp = 1; 
+            $("#whatToDo").slideToggle(); 
+            // $("#whatToDo").toggle(1000);
+        }
+        else {
+            
+            
+            $("#whatToDo").slideToggle();
+            switchOp = 0;
+            // resetBox();
+        }
+
+        
+
+    });
+    
 
     
 

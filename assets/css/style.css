@@ -13,7 +13,7 @@ body {
     display:flex;
     background: slategrey;
     height:80px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     z-index: 10; 
@@ -560,6 +560,15 @@ div h6 {
         align-self:center;
     }
 
+    #whatToDo {
+        background:rgba(0, 0, 0, 0.5);
+        color:white;
+        text-indent:5vw;
+        line-height:6vw;
+        padding:0 4vw;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
     div h1 {
         margin-top:3vh;
         margin-left:5vw;
@@ -607,11 +616,14 @@ div h6 {
     }
 
     #goingBack {
-        clear:both;
+        margin-top:40vw;
+        margin-right:20vw;
+        /* clear:both; */
         width:20vw;
         height:7vh;
-        float:right;
-        margin-right:2.5vw;
+        margin-left:-41vw;
+        /* float:right; */
+        /* margin-right:2.5vw; */
         opacity: 0.7;
         background: #777;
         animation: colorChange infinite 3s;
@@ -622,7 +634,7 @@ div h6 {
    
 
     #buttons {
-        margin-top:60vh;
+        margin-top:30vh;
         display:inline-grid;
         grid-template-columns: 1fr;
         grid-gap: 6vw;
