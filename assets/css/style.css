@@ -532,14 +532,22 @@ div h6 {
 }
 
 @media screen and (max-width: 640px) {
+
+   
     div h6 {
         font-size:12px;
     }
 }
 @media screen and (max-width: 375px) {
 
+    #navBar {
+        height:120vw;
+        background:rgba(0, 0, 0, 0.5);
+        animation:none;
+    }
+
     #directions {
-        margin-left:36vw;
+        margin-left:35vw;
         position:absolute;
         margin-top:40vw;
         background:#345;
@@ -554,34 +562,31 @@ div h6 {
 
     div h1 {
         margin-top:3vh;
-        margin-left:3.5vw;
+        margin-left:5vw;
         width:10vw;
-        font-size:40px;
+        font-size:80px;
         font-weight:bold;
     }
 
     #hideMe {
-        
-        
         display:flex;
-        margin-top:23vw;
-        float:left;
+        margin-top:40vw;
         
-        /* margin-top:-30px; */
     }  
 
     .whatDoYouGot {
-        
+        margin-left:-1vw;
         margin-top:2vh;
-        width:30vw;
+        width:50vw;
         height:4vh;
         margin-right:1vw;
     }
 
     div h6 {
         
+        margin-left:-15vw;
         margin-top:7vw;
-        margin-right: 1vw;
+        margin-right: 1.1vw;
         color:white;
         font-size:12px; 
     }
@@ -617,7 +622,7 @@ div h6 {
    
 
     #buttons {
-        margin-top:30vh;
+        margin-top:60vh;
         display:inline-grid;
         grid-template-columns: 1fr;
         grid-gap: 6vw;
@@ -636,8 +641,8 @@ div h6 {
     }
 
     #favorites {
-        margin-top:5vw;
-        margin-left:70vw;
+        margin-top:70vw;
+        margin-left:42vw;
         transform:scale(.8);
         color:yellow;
         position:absolute;
